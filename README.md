@@ -21,7 +21,7 @@ ofrece funciones para recorrer el árbol y obtener estadísticas como el número
 
 # Los métodos principales dentro de la clase "ArbolContacto" son:
 
-* 'ArbolContacto': Implementa operaciones para manejar una lista de contactos utilizando un árbol binario de búsqueda. Permite inserción ordenada, eliminación específica y recorridos en el árbol (inorden, preorden, postorden) para obtener contactos ordenados de diferentes formas. También verifica si el árbol está balanceado y calcula su altura.
+* `ArbolContacto`: Implementa operaciones para manejar una lista de contactos utilizando un árbol binario de búsqueda. Permite inserción ordenada, eliminación específica y recorridos en el árbol (inorden, preorden, postorden) para obtener contactos ordenados de diferentes formas. También verifica si el árbol está balanceado y calcula su altura.
 
 * `Contacto`: Almacena y gestiona información de un contacto, incluyendo nombre, teléfono, correos y redes sociales. Base para una lista de contactos más funcional.
 
