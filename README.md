@@ -1,4 +1,6 @@
-# GestionDeContactosTelefonicos
+# GestionDeContactosTelefonicos.
+
+# Descripcion.
 Se necesita desarrollar un programa para gestionar una lista de contactos telefónicos. Cada contacto tiene un nombre, un número de teléfono, una Coleccion de Correos y un Diccionario que almacenara las redes sociales del contacto donde la red social sera la clave del diccionario ( Ejem: {'"acebook": "link_facebook_profile"} ).  
 
 
@@ -17,46 +19,46 @@ La clase principal "Main" (Practica_ArbolesBinarios) actúa como punto de entrad
 A través de una interfaz sencilla, se pueden agregar, buscar, eliminar y modificar información de los contactos. Además,
 ofrece funciones para recorrer el árbol y obtener estadísticas como el número de contactos y niveles del árbol.
 
-Los métodos principales dentro de la clase "ArbolContacto" son:
+# Los métodos principales dentro de la clase "ArbolContacto" son:
 
-ArbolContacto: Implementa operaciones para manejar una lista de contactos utilizando un árbol binario de búsqueda. Permite inserción ordenada, eliminación específica y recorridos en el árbol (inorden, preorden, postorden) para obtener contactos ordenados de diferentes formas. También verifica si el árbol está balanceado y calcula su altura.
+* 'ArbolContacto': Implementa operaciones para manejar una lista de contactos utilizando un árbol binario de búsqueda. Permite inserción ordenada, eliminación específica y recorridos en el árbol (inorden, preorden, postorden) para obtener contactos ordenados de diferentes formas. También verifica si el árbol está balanceado y calcula su altura.
 
-Contacto: Almacena y gestiona información de un contacto, incluyendo nombre, teléfono, correos y redes sociales. Base para una lista de contactos más funcional.
+* 'Contacto': Almacena y gestiona información de un contacto, incluyendo nombre, teléfono, correos y redes sociales. Base para una lista de contactos más funcional.
 
-Nodo: Elemento básico para construir un árbol binario de búsqueda que almacena objetos Contacto. Cada Nodo contiene un Contacto y referencias a nodos hijos, permitiendo organización jerárquica.
+* 'Nodo': Elemento básico para construir un árbol binario de búsqueda que almacena objetos Contacto. Cada Nodo contiene un Contacto y referencias a nodos hijos, permitiendo organización jerárquica.
 
-Main (Practica_ArbolesBinarios): Interfaz principal para interactuar con un árbol binario de búsqueda de contactos. Permite agregar, buscar, eliminar, modificar, recorrer y obtener estadísticas.
+* 'Main (Practica_ArbolesBinarios)': Interfaz principal para interactuar con un árbol binario de búsqueda de contactos. Permite agregar, buscar, eliminar, modificar, recorrer y obtener estadísticas.
 
-Métodos dentro de la Clase ArbolContacto:
+# Métodos dentro de la Clase ArbolContacto:
 
-Insertar: Inserción recursiva en un árbol binario de búsqueda, manteniendo orden. Menores a la izquierda, mayores a la derecha.
+* 'Insertar': Inserción recursiva en un árbol binario de búsqueda, manteniendo orden. Menores a la izquierda, mayores a la derecha.
 
-inOrderRecursivo: Recorrido inorden (izquierda, nodo, derecha).
+* 'inOrderRecursivo': Recorrido inorden (izquierda, nodo, derecha).
 
-postOrderRecursivo: Recorrido postorden (izquierda, derecha, nodo).
+* 'postOrderRecursivo': Recorrido postorden (izquierda, derecha, nodo).
 
-preOrderRecursivo: Recorrido preorden (nodo, izquierda, derecha).
+* 'preOrderRecursivo': Recorrido preorden (nodo, izquierda, derecha).
 
-printTreeNode: Imprime visualmente la estructura del árbol.
+* 'printTreeNode': Imprime visualmente la estructura del árbol.
 
-getRoot: Devuelve el nodo raíz.
+* 'getRoot': Devuelve el nodo raíz.
 
-estaBalanceado: Verifica si el árbol está balanceado (diferencia de alturas <= 1).
+* 'estaBalanceado': Verifica si el árbol está balanceado (diferencia de alturas <= 1).
 
-obtenerAltura: Calcula altura recursivamente.
+* 'obtenerAltura': Calcula altura recursivamente.
 
-eliminarContacto: Elimina contacto por nombre, usando eliminación recursiva.
+* 'eliminarContacto': Elimina contacto por nombre, usando eliminación recursiva.
 
-encontrarMinimo: Devuelve el nodo con el valor mínimo en un subárbol.
+* 'encontrarMinimo': Devuelve el nodo con el valor mínimo en un subárbol.
 
-agregarCorreo: Agrega correo a un contacto.
+* 'agregarCorreo': Agrega correo a un contacto.
 
-agregarRedSocial: Agrega red social y URL a un contacto.
+* 'agregarRedSocial': Agrega red social y URL a un contacto.
 
-buscarContacto: Busca contacto por nombre.
+* 'buscarContacto': Busca contacto por nombre.
 
-getNumeroContactos: Obtiene el número total de contactos.
+* 'getNumeroContactos': Obtiene el número total de contactos.
 
-getNumeroNiveles: Obtiene el número total de niveles.
+* 'getNumeroNiveles': Obtiene el número total de niveles.
 
-imprimirAnchura: Recorre y muestra los contactos por niveles.
+* 'imprimirAnchura': Recorre y muestra los contactos por niveles.
